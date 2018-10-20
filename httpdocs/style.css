@@ -1,0 +1,47 @@
+body {
+    background-color: #F5F5F5;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h4 {
+        font-size: 1.2rem;
+    }
+}
+
+.card {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.heading {
+    background-color: #FFC107;
+    min-height: 4rem;
+    padding: 2rem;
+}
+
+.message {
+    background-color: #FAFAFA;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+#kontor {
+    animation: cssAnimation 0s 2s forwards;
+    visibility: hidden;
+}
+
+@keyframes cssAnimation {
+    to   { visibility: visible; }
+  }

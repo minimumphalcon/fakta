@@ -7,247 +7,34 @@
         <title>Faktaforlaget.no</title>
 
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" href="https://unpkg.com/vuetify/dist/vuetify.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="/style.css">
     </head>
     <body>
-        <div id="app">
-            <v-app>
-                 <v-content>
-                    <v-container fluid class="grey lighten-4">
-                   
-                    <v-container color="green" grid-list-lg>
-                        <v-layout>
-                                <v-flex xl12-lg-and-down><v-card light><v-card-text>
-                                    <img src="https://storage.googleapis.com/faktaforlaget-static-content/faktaforlagetno-logo.jpg"/>
-                                </v-card-text></v-card></v-flex>
 
-                        </v-layout>
-                        <v-layout row wrap>
-
-                                <infocard color="light-green darken-3">
-                                    <h3 class="headline mb-0">Restopplag</h3>
-                                    <p>Vi avvikler forlaget. Nedenfor finner du en oversikt over restopplaget.</p>
-                                    <p>Alle utgavene vi fortsatt har på lager står på listen nedenfor. Det kommer ingen ny utgivelser.</p>
-                                </infocard>
-
-                                <infocard color="deep-purple darken-1">
-                                    <h3 class="headline mb-0">Bestilling</h3>
-                                    <p>Det er minimum bestilling på 2 bøker.</p>
-                                    <p>Prisene er oppgitt uten mva. Porto kommer i tillegg på kr 120,- + mva pr bestilling.</p>
-                                    <p>Send din bestilling på e-post til: <kontor></kontor></p>
-                                </infocard>
-                         
-                        </v-layout>
-                    </v-container>
-
-                    <v-container grid-list-lg>
-                        <v-layout row wrap>
-                                          
-                            <book imgsrc="https://storage.googleapis.com/faktaforlaget-static-content/817.jpg" title="Lovsamling for styrere og pedagogiske ledere i barnehagen (2015/2016)" price="90">
-                                    <p>Lovsamlingen er ajourført september 2015.</p>
-                                    <p>Følgende lover inngår bl.a. i lovsamlingen:</p>
-                                    - Opplæringslova
-                                    - Forskrift til opplæringslova
-                                    - Lov om barnevernstjenester kap-4
-                                    - Friskolelova
-                                    - Lov om fagskoleutdanning
-                                    - Lov om voksenopplæring
-                                    - Introduksjonsloven
-                                    - Forvaltningsloven
-                                    - Offentligshetsloven
-                                    - Utvalgte forskrifter
-
-                            </book>
-
-                            <book imgsrc="https://storage.googleapis.com/faktaforlaget-static-content/821.jpg" title="Ny plan- og bygningslov (byggsaksdelen)" price="90">
-                                <p>Oppdatert april 2015. Endringer som gjelder fra 1. juli 2015.</p>
-                                <p>Lovsamlingen inneholder:</p>
-                                <p>
-                                    - Plan- og bygningsloven
-                                    - Kart- og planforskriften
-                                    - Forskrift og konsekvensutredninger
-                                    - Forskrift om samvirke mellom ny og gammel plan- og bygningslov
-                                    - Lovkommentar til plandelen av ny plan- og bygningslov
-                                </p>
-
-                            </book>
-
-                            <book imgsrc="https://storage.googleapis.com/faktaforlaget-static-content/825.jpg" title="Ny plan- og bygningslov (plandelen)" price="90">
-                                <p>Følgende lover inngår bl.a. i lovsamlingen:</p>
-                                <p>- Lov om planlegging og byggesaksbehandling
-                                    - Forskriftene til plan- og bygningsloven (Til byggsaksdelen)
-                                    - Ot. Prp. Nr. 45 (Om Plan og bygningsloven) - Utdrag - (Kommentarer til de enkelte lovene i byggsaksdelen)
-                                </p>
-
-                            </book>
-
-                            <book imgsrc="https://storage.googleapis.com/faktaforlaget-static-content/816.jpg" title="Offentleglova - med forskrift og rettleiar" price="90">
-                                    <p>
-                                    Inneholder offentleglova med forskrifter samt forarbeider og departementets veiledning
-                                    </p>
-                                    <p>Utgave fra august 2015 inneholder følgende lover:</p>
-
-                                   - Lov om rett til innsyn i dokument i offentleg verksemd (offentleglova)
-                                    - Forskrift til offentleglova
-                                    - Veileder til offentleglova
-                                    - Forarbeider til offentleglova (utvalg)
-                                    - Personopplysningsloven
-                                    - Arkivforskriften
-                                    - Utdrag fra forvaltningsloven (som omhandler taushetsplikt, offentlighet mm)
-                                    - Beskyttelsesinstruksen
-
-                            </book>
-
-                            <book imgsrc="https://storage.googleapis.com/faktaforlaget-static-content/819.jpg" title="Lovsamling for saksbehandlere" price="90">
-
-                                    <p>Utgave fra september 2014 inneholder følgende lover:</p>
-                                    <p>
-                                    - Forvaltningsloven
-                                    - Forvaltningslovforskriften
-                                    - eForvaltningsforskriften
-                                    - Offentlighetsloven
-                                    - Personopplysningsloven
-                                    - Personopplysningsforskriften
-                                    - Offentleglova
-                                    - Etiske retningslinjer for statstjenesten
-                                    - Utvalgte uttalselser fra Sivilombudsmannen
-                                    - Arkivloven
-                                    </p>
-                            </book>
-
-                            <book imgsrc="https://storage.googleapis.com/faktaforlaget-static-content/412.jpg" title="Lovsamling for skoleledere" price="90">
-                                    <p>
-                                    Lovsamling skreddersydd for skoleledere i både offentlig og privat sektor. Den dekker behovet til rektorer, inspektører, rådgigvere og sosiallærere i grunnskolen, videregåendeskole og privatskoler.
-                                    </p>
-                                    <p>Utgave fra august 2015 inneholder følgende lover:</p>
-
-                                    - Opplæringslova
-                                    - Forskrift til opplæringslova
-                                    - Lov om barnevernstjenester kap-4
-                                    - Friskolelova
-                                    - Lov om fagskoleutdanning
-                                    - Lov om voksenopplæring
-                                    - Introduksjonsloven
-                                    - Forvaltningsloven
-                                    - Offentligshetsloven
-                                    - Utvalgte forskrifter
-
-                                    <p>ISBN: 978-82-92787-79-3</p>
-                            </book>
-
-
-                            <book imgsrc="https://storage.googleapis.com/faktaforlaget-static-content/801.jpg" title="Domssamling i arbeidsrett" price="90">
-                                    <p>Domsavgjørelser og sivilombudsmannsuttalelser innen styringsrett, oppsigelser og avskjed.</p>
-                                    <p>Boken inneholder følgende domsavgjørelser</p>
-
-                                    <p>
-                                        - Rt-2000-1602 Arbeidsrett. Arbeidsgivers styringsrett – ”Nøkk-dommen”
-                                        - Rt-2001-418 Arbeidsrett. Arbeidstid. Arbeidsgivers styringsrett. – ”Kårstødommen”
-                                        - Rt-2000-1602 Arbeidsrett. Arbeidsgivers styringsrett – ”Seinvaktdommen”
-                                        - HR-2011-1178-A Arbeidsrett. Arbeidsgivers styringsrett. Omplassering. Rettslig interesse
-                                        - LB-1999-414 Arbeidsrett. Styringsretten – ”Fratakelse av arbeidsoppgaver”
-                                        - RG-1994-492 Arbeidsrett. Tjenestemannsrett. Statens styringsrett. – ”Endring i arbeidsoppgaver”
-                                        - LE-2003-3386 Arbeidsrett, - endringsoppsigelse ”Overlege ved sykehus, endringsoppsigelse”
-                                        - Rt-1989-329 Arbeidsrett-”Polititjenestemann avskjediget –ordrenekt, avskjedhundefører- farlig oppdrag”
-                                        - RG-1999-1694 Arbeidsrett. Omplasseringsplikt. Prøvetid
-                                        - RG-2000-683 Arbeidsforhold. ”Avskjed av ungdomskolelærer.”
-                                        - Rt-2000-2058 (496-2000) Arbeidsrett. Arbeidstakers stilling ved virksomhetsovertakelse. – ”Arbeidsgiver ved virksomhetsoverdragelse - Miljøtransportdommen”
-                                        - Rt-2003-1071 Arbeidsrett. Oppsigelse. – ”Oppsigelse av daglig leder i prøvetiden”
-                                        - HR-2005-00649-A sivil sak, anke ”Arbeidsrett. Avskjed. Nedlasting av pornografisk materiale – ConocoPhillips-dommen”
-                                        - HR-2008-00174-A sivil sak, anke ” Oppsigelse av tollaspirant”
-                                        - HR-2008-00936-A sivil sak, anke ”Oppsigelse av arbeidstaker begrunnet i virksomhetens forhold – Posten Norge”
-                                        - HR-2009-01129-A sivil sak, anke over dom ”Gyldigheita av ei oppseiingsaksbehandler ved kulturenheten i fylkeskommune”
-                                        - HR-2011-00165-A sivil sak, anke over dom ”Oppsigelse i prøvetid”
-                                        - HR-2009-01156-A - sivil sak, anke over dom ”Søksmålsfrist”
-                                        - Sivilombudsmannen - Endring av arbeidsavtale i forbindelse med omorganisering
-                                        - Sivilombudsmannen - Skriftlig advarsel etter publisering av kronikk
-                                        - Sivilombudsmannen - Saksbehandlingskrav ved inngåelse av avtale om omplassering som alternativ til oppsigelse
-                                        - Sivilombudsmannen - Advarsel i arbeidsforhold og tilsetting av oppvekstsenterleder
-                                        - Sivilombudsmannen - Somb-2009-39 (2009 s 165) Sak om tjenestepåtale til kommunalt ansatt. ( Offentlige tilsettingsforhold )
-                                        - Sivilombudsmannen - Somb-2001-23 (2001 s 133) Om en muntlig advarsel kan anses som ordensstraff. ( Tjenestemenn, tilsetting )
-                                        - Sivilombudsmannen - Somb-2009-40 (2009 s 167) Behandlingen av personalsak i Forsvarsdepartementet. ( Offentlige tilsettingsforhold ) 
-                                    </p>
-                            </book>
-
-                            <book imgsrc="https://storage.googleapis.com/faktaforlaget-static-content/802.jpg" title="Domssamling i Forvaltningsrett" price="55">
-                                    <p>Domsavgjørelser og sivilombudsmannsuttalelser innen saksbehandling, habilitet, begrunnelse av vedtak, utenforliggende hensyn med mer.</p>
-                                    <p>Boken inneholder følgende domsavgjørelser</p>
-
-                                    <p>
-                                        - Rt-1965-712 Kommunalforvaltning. - Bevillinger. - Alkohollovgivning. - Hoteller. - Passivitet. – Utenforliggende hensyn – ”Georges-dommen”
-                                        - Rt-1957-86 Forvaltningsrett. Utenforliggende hensyn.– ”Frogner Hospits”
-                                        - Rt-1957-86 Tingsrett. Miljørett. Forvaltningsrett. ”Utenforliggende hensyn– Lunner Pukkverk”
-                                        - Rt-1981-745 Spørsmål om gyldighet av forkjøpsvedtak - (Isenedommen)
-                                        - HR-2000-00035A Tingsrett. Konsesjon. Forvaltningsrett. Forkjøpsrett.- (E-18 Jordskifte)
-                                        - HR-2009-02022-A sivil sak, anke over dom - (Feil i saksbehandling etter kommunehelsetjenesteloven § 4-2)
-                                        - HR-2009-02180-A, (sak nr. 2009/1389), straffesak, anke over dom - Forvaltningsloven § 39
-                                        - HR-2010-00412-A, (sak nr. 2009/1456), sivil sak, anke over dom, (Spørsmål om en kommunes erstatningsansvar etter forvaltningsvedtak)
-                                        - HR-2011-00205 Forvaltningsrett. Gyldigheten av vedtak. Saksbehandling. Drosjeløyve
-                                        - HR-2012-108-A Forvaltningsrett. Konsesjon. Prøvingsadgang. Saksbehandling
-                                        - HR-2012-00580-A Spørsmål om oppreisning etter påstått aldersdiskriminering i forbindelse med ansettelse av førstekonsulent
-                                        - Høyesterett HR-1995- 00134 B, nr 22/1994 og nr 115/1994 Miljørett. Domstolenes prøvelsesrett
-                                        - HR-2007-00818-P Habilitet. Domstolloven § 106 nr. 7 og nr. 9, § 108
-                                        - Somb-2003-27 Avslag på søknad om permisjon fra barnehageplass - ikke enkeltvedtak
-                                        - Somb-1994-7 Inhabilitet for personalleder i tilsettingssak
-                                        - Somb-1975-13 Kommuneingeniørs habilitet i byggesaker
-                                        - Somb-2000-5 Saksbehandlingen i forbindelse med vedtakelse av reguleringsplan - habilitet
-                                        - Somb-2003-33 Kommunens oppfyllelse av veiledningsplikten
-                                        - Somb-2002-31 Etterbetaling av omsorgslønn - kravet til konkret vurdering
-                                        - Somb-2002-25 Inntak i videregående skole - lang saksbehandlingstid
-                                        - Somb-2002-67 Manglende behandling av klagesak sen saksbehandling
-                                        - Somb-2002-64 Lang saksbehandlingstid i Reindriftsforvaltningen
-                                        - Somb-2003-20 Nedtegning av opplysninger i sak om tilsetting av lærer
-                                        - Somb-1994-6 Retten til muntlig konferanse med forvaltningen
-                                        - Somb 1998-59 Nektelse av adgang til sosialkontor
-                                        - Somb-1992-21 Bruk av fullmektig under forhandlinger i helse- og sosialstyret
-                                        - Somb-2002-11 Innsyn i anbudsdokumenter taushetsplikt
-                                        - Somb-1989-22 Dokumentinnsyn - kommunestyrevedtak -taushetsplikt
-                                        - Somb-1994-66 Skjenkebevilling - inndragning og avslag på ny søknad - forhåndsvarsel
-                                        - Somb-1995-35 Saksbehandlingen ved nedsettelse av ordenskarakter - forhåndsvarsel
-                                        - Somb-2003-93 Feil faktum lagt til grunn i byggesak
-                                        - Somb-2003-34 Kravene til opplysning av sak om reduksjon av omsorgslønn
-                                        - Somb-2003-11 Partsinnsyn i sak behandlet etter forurensningsloven
-                                        - Somb-1978-57 Lærers rett til opplysning om underskriverne av klageskrift
-                                        - Somb-1994-13 Dokumentinnsyn - rett til kopiering av saksdokumenter
-                                        - Somb-2003-36 Utformingen av vedtak om refusjon for tidligere utbetalt sosialstønad
-                                        - Somb-2001-28 Spesialundervisning - krav til begrunnelse og utforming av vedtak
-                                        - Somb-1999-47 Spesialpedagogiske tiltak - kravene til grunnlaget for kommunens avgjørelse 
-                                    </p>
-                            </book>
-
-                         
-                        </v-layout>
-
-                        <v-layout>
-                                <v-flex xl12-lg-and-down><v-card light><v-card-text>
-                                    <h4>Kontakt informasjon</h4>
-                                    <p>
-                                        Kompetanseafabrikken AS<br />
-                                        Postboks 1079 Sentrum<br />
-                                        0104 OSLO<br />
-                                    </p>
-                                    <p>Orgnr: 985226350 MVA</p>
-                                    <p><kontor></kontor></p>
-                                </v-card-text></v-card></v-flex>
-
-                        </v-layout>
-                    </v-container>
-
-                    <v-container>
-                </v-content>
-
-            </v-app>
+        <div class="container-fluid heading">
+            <div class="container">
+                <img src="https://storage.googleapis.com/faktaforlaget-static-content/faktaforlagetLogo.png">
+            </div>
         </div>
-        <script src="https://unpkg.com/vue/dist/vue.js"></script>
-        <script src="https://unpkg.com/vuetify/dist/vuetify.min.js"></script>
-        <script type="text/javascript" src="javascript.js?v=1"></script>
 
-        <script>
-            new Vue({
-                el: '#app'
-            })
-        </script>
+        <div class="container message card">
+            <h1>Vi har solgt vår siste bok</h1>
+            <p>Vi har avviklet Faktaforlaget.</p>
+            <p>Restopplaget er utsolgt og det kommer ingen nye utgivelser.</p>
+        </div>
 
+        <div class="container message card">
+            <h4>Kontaktinformasjon</h4>
+            <p>
+                Kompetanseafabrikken AS<br />
+                Postboks 1079 Sentrum<br />
+                0104 OSLO<br />
+            </p>
+            <p>Orgnr: 985226350 MVA</p>
+            <p id="kontor"></p>
+        </div>
+
+        <script type="text/javascript" src="javascript.js?v=2"></script>
     </body>
 </html>
